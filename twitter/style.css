@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenu {
+    height: 900px;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+
+.gauche {
+    height: 100%;
+    width:55%;
+    margin-left: 0px;
+    background-image: url('images/lohp_1302x955.png');
+}
+
+.gauche img {   
+    margin-top: 30%;
+    margin-left: 40%;    
+}
+
+.droite {
+    height: 100%;
+    width: 45%;
+    margin-right: 0px;
+    background: black;
+    display: flex;
+    flex-direction: column; 
+    color: white;   
+}
+
+.logo img {
+    padding-top: 8%;
+    padding-left: 5%;
+    width: 5%;
+}
+
+.titre {
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 65px;
+}
+
+.titre2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.google {
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2%;
+    text-decoration: none;
+    color: black;
+}
+
+.google p {
+    margin-top: 2%;
+}
+
+.google img {
+    width: 11%;
+    margin-left: 20%;
+    padding-right: 1%;
+}
+
+.google:hover {
+    background-color: #f2f2f2;
+}
+
+.apple {
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2%;   
+    text-decoration: none;
+    color: black; 
+}
+
+.apple p { 
+    margin-top: 2%;
+}
+
+.apple img {
+    width: 11%;
+    margin-left: 20%;
+    padding-right: 1%;
+}
+
+.apple:hover {
+    background-color: #f2f2f2;
+}
+.ou {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.tel {
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: #3366ff;
+    color: white;
+}
+
+.tel p {    
+    margin-top: 7px;
+}
+
+.tel a {
+    color: white;
+    text-decoration: none;
+}
+
+.conditions {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.conditions a {
+    color: #3366ff;
+}
+
+.deja {
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.deja p {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: black;
+    color: #3366ff;   
+}
+
+.connecter {
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    background-color: black;
+    color: #3366ff;   
+}
+
+.connecter p{
+    margin-top: 7px;
+}
+
+.connecter a {
+    text-decoration: none;
+    color: #3366ff;
+}
+
+footer {
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    color: #b3b3b3;
+}
+
+.contenu-footer {
+    text-align: center;
+    padding: 1%;
+    font-size: 14px;
+}
+
+.contenu-footer a {
+    text-decoration: none;
+    color: #b3b3b3;
+    padding-right: 1%;
+}
+
+.contenu-footer a:hover{
+    border-bottom: 1px;
+}
